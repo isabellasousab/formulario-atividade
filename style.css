@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #eaf3f8;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #24527a;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+form {
+    max-width: 750px;
+    margin: auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #b8d1e3;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #00000020;
+}
+
+legend {
+    padding: 5px 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #4f86ad;
+    border-radius: 5px;
+}
+
+label {
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    padding: 9px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="date"] {
+    width: 250px;
+}
+
+select {
+    width: 180px;
+}
+
+textarea {
+    width: 95%;
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4f86ad;
+    background-color: #f2f8fc;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 22px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[type="submit"] {
+    background-color: #4f86ad;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #24527a;
+}
+
+button[type="reset"] {
+    background-color: #d5e5ef;
+    color: #24527a;
+}
+
+button[type="reset"]:hover {
+    background-color: #bdd4e3;
+}
